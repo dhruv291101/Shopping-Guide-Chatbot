@@ -1,0 +1,50 @@
+def greetings():
+  print("Hello there,Welcome to antiquettes,we invite you to our store to experience antique products in clothings.we hve exclusive products and perfect guides to take you to the final best chosen product by you.")
+greetings()
+print("\n")
+def question1():
+  a="kids wear"
+  b="womens wear"
+  c="mens wear"
+  print("\n")
+  print(a)
+  print(b)
+  print(c)
+  print("\n")
+  reply=input("Please guide us with your need!?\n")
+  print("\n")
+  if reply==a:
+    print("girls wear or boys wear")
+  elif reply==b:
+    print("ethnic wear or western wear ")
+  elif reply==c:
+    print("casuals or formals")
+  else:
+    print("Sorry! that's all collection we have....")
+question1()
+def question2():
+  d= "girls wear"
+  e="boys wear"
+  f="ethnic wear"
+  g= "western wear"
+  h= "casuals"
+  i="formals"
+  reply=input("please guideus further about your choice\n")
+  print("\n")
+  if reply==d:
+    print("checkout antique1-antique50\n")
+  elif reply==e:
+    print("checkout antique51-antique100\n")
+  elif reply==f:
+    print("checkout antique101-antique170\n")
+  elif reply==g:
+    print("checkout antique171-antique200\n")
+  elif reply==h:
+    print("checkout atique201-antique300\n")
+  elif reply==i:
+    print("checkout antique301-antique360\n")
+  else:
+    print("sorry! for other searches please checkout antiquettes\n")
+    print("\n")
+question2()
+print("Thank you for shopping!!\nplease drop feedback because it matters :)")
